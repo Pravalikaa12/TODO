@@ -1,0 +1,43 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    background-color: rgb(158, 112, 202);
+    color: white;
+}
+.container{
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 10px;
+}
+li{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: 10px;
+}
+/* ul{
+    text-align: center;
+} */
+.hide{
+    display: none;
+}
+.search{
+    width: 100%;
+}
+input{
+    border-radius: 5px;
+    border: transparent;
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+    border: transparent;
+    text-align: center;
+    color: white;
+    background-color: rgb(158, 112, 202);
+}
